@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: rgb(70, 147, 192);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color:white;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width:700px;
+    border-radius: 10px;
+    padding:20px;
+    margin: 10px auto;
+    background-color: aliceblue;
+}
+.user-img {
+    width:200px;  
+    border-radius: 50%;
+}
+.div-btn {
+    padding-bottom: 10px;
+}
+.circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-circle {
+    background-color: blueviolet;
+    width:50px;
+    height:50px;
+    
+}
